@@ -1,25 +1,39 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta choraset="utf-8">
+        <meta char set="utf-8">
         <title>Rodrigo Andrade</title>
+		<link rel="stylesheet" href="style.css">
     </head>
     <body>
-	<img src="icone.jpg" alt="ilustração do rosto">
-    <header><h1>Rodrigo Andrade</h1>
+	<header>
+	<img src="icone.jpg" alt="ilustração do rosto" class="photo">
+    <h1 id="title">Rodrigo Andrade</h1>
     </header>
     <section>
         <header>
-            <h2>Posts</h2>
+            <h2 class="subtitle">Posts</h2>
         </header>
-        <article>
-            <Header>
-                <h3>post #1</h3>
-				<img src="ilustracao.jpg" alt="editor de texto contendo código">
-            </Header>
-			<p>Este é apenas um exercício, conheça meu perfil no meu<a target= "_blank" a href=https://www.linkedin.com/in/rodrigo-ferreira-andrade-b24924237/>linkedin!</a>, caso tenha dúvidas me contactar por <a href= mailto:webandraderodrigo@gmail.com >e-mail</a>.
+        <article class="post">
+            <header>
+                <h3 class="post_title">post #1</h3>
+				<img src="ilustracao.jpg" alt="editor de texto contendo código" class="post_image">
+            </header>
+			<p class="post_content"> Este é apenas um exercício, conheça meu perfil no meu <a target= "_blank" a href=https://www.linkedin.com/in/rodrigo-ferreira-andrade-b24924237/>linkedin!</a>, caso tenha dúvidas me contactar por <a href= mailto:webandraderodrigo@gmail.com >e-mail</a></p>.
         </article>
     </section>
-    <footer></footer>
+    <footer>
+	<ul class="contacts_list">
+	<li>
+	<a href="mailto:webandraderodrigo@gmail.com">
+	webandraderodrigo@gmail.com</a>
+	</li>
+	<li>
+	<a href="https://www.linkedin.com/in/rodrigo-ferreira-andrade-b24924237/" target="_blank">linkedin</a>
+	</li>
+	<li>
+	<a href="https://github.com/AndradeRJ" target="_blank">Github</li></a>
+	</ul>
+	</footer>
     </body>
 </html>
